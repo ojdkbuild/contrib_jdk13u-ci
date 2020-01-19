@@ -1,7 +1,7 @@
 OpenJDK 13 Linux builds
 =======================
 
-[![travis](https://travis-ci.org/ojdkbuild/contrib_jdk12u-ci.svg?branch=jdk-13.0.1%2B9)](https://travis-ci.org/ojdkbuild/contrib_jdk13u-ci/builds)
+[![travis](https://travis-ci.org/ojdkbuild/contrib_jdk13u-ci.svg?branch=jdk-13.0.2%2B8)](https://travis-ci.org/ojdkbuild/contrib_jdk13u-ci/builds)
 
 OpenJDK 13 "vanilla" builds done on Travis CI - [downloads](https://github.com/ojdkbuild/contrib_jdk13u-ci/releases).
 
