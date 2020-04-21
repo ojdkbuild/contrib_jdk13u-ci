@@ -96,11 +96,14 @@ script:
         --with-stdc++lib=static
         --with-zlib=bundled
         --with-boot-jdk=/opt/bootjdk
-        --with-cacerts-file=/etc/pki/java/cacerts
         --with-version-pre=''
         --with-version-build=${OJDK_BUILD}
         --with-version-opt=''
         --with-vendor-version-string=19.9
+        --with-vendor-name=ojdkbuild
+        --with-vendor-url=https://github.com/ojdkbuild
+        --with-vendor-bug-url=https://github.com/ojdkbuild/ojdkbuild/issues
+        --with-vendor-vm-bug-url=https://github.com/ojdkbuild/ojdkbuild/issues
         --with-log=info"
   - $D bash -c "cd jdkbuild && make images"
   - $D mv /opt/jdkbuild/images/jdk ${OJDK_IMAGE}
